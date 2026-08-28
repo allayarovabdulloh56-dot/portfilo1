@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #21243D;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 33px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #FF6464; 
+}
+
+/* Asosiy konteyner */
+.container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px 20px 60px 20px;
+}
+
+/* Sahifa sarlavhasi */
+.page-title {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+
+.blog-item {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E0E0E0; 
+}
+
+.blog-item:last-child {
+    border-bottom: none; 
+}
+
+.blog-item h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #21243D;
+    margin-bottom: 12px;
+}
+
+
+.blog-meta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.date {
+    color: #21243D;
+    font-weight: 400;
+}
+
+.separator {
+    color: #8695A4;
+}
+
+.tags {
+    color: #8695A4;
+}
+
+
+.blog-text {
+    font-size: 16px;
+    color: #21243D;
+    font-weight: 400;
+}
